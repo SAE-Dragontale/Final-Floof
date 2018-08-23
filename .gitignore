@@ -18,26 +18,23 @@ sysinfo.txt
 *.pidb.meta
 *.stackdump
 
-# Unity Collab Files
-*.collabignore
-
 #################################################################
 # FMOD
-
-/**/FMODStudioCache.asset
-/**/FMODStudioCache.asset.meta
-/**/fmod.log
-/**/fmod_editor.log
 
 *.cache/
 *.unsaved/
 *.user/
 *.restore/
 
-*/Assets/StreamingAssets/**/*.bank
-*/Assets/StreamingAssets/**/*.bank.meta
-*/Assets/StreamingAssets/**/*.strings.bank
-*/Assets/StreamingAssets/**/*.strings.bank.meta
+/**/FMODStudioCache.asset
+/**/FMODStudioCache.asset.meta
+/**/fmod.log
+/**/fmod_editor.log
+
+[Aa]ssets/StreamingAssets/**/*.bank
+[Aa]ssets/StreamingAssets/**/*.bank.meta
+[Aa]ssets/StreamingAssets/**/*.strings.bank
+[Aa]ssets/StreamingAssets/**/*.strings.bank.meta
 
 #################################################################
 # VS/MD solution and project files
@@ -60,10 +57,10 @@ sysinfo.txt
 # OS generated
 
 *_DS_Store
-.DS_Store
-._*
-.Spotlight-V100
-.Trashes
+*.DS_Store
+*.Spotlight-V100
+*.Trashes
+
 ehthumbs.db
 [Tt]humbs.db
 [Dd]esktop.ini
